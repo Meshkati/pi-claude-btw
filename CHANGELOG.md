@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/Meshkati/pi-claude-btw/compare/v0.1.1...v0.2.0) (2026-11-22)
+
+
+### Features
+
+* add a gallery cover image and demo video ([6838611](https://github.com/Meshkati/pi-claude-btw/commit/6838611c617ec9990879998f67f170ab0f41b887))
+
 ## [0.1.1](https://github.com/Meshkati/pi-claude-btw/compare/v0.1.0...v0.1.1) (2026-11-22)
 
 
