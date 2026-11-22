@@ -1,4 +1,5 @@
 node_modules/
 sandbox/
 sandbox-pi/
+sandbox-demo/
 .DS_Store

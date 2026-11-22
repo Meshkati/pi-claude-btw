@@ -10,6 +10,10 @@
 
 The answer opens in a panel that takes the editor's place, under a full-width `▔` separator. It is built from the conversation so far, uses no tools, and is never written to the session. The main agent is not interrupted.
 
+[![/btw answering a side question while pi runs the test suite](media/cover.png)](media/demo.mp4)
+
+▶ [Watch the 30-second demo](media/demo.mp4): pi runs a slow test suite, `/btw` answers a side question meanwhile, and the agent finishes undisturbed.
+
 ## Install
 
 ```bash
@@ -78,6 +82,7 @@ npm test                            # behaviour tests through pi's real extensio
 npm run verify:package              # the npm tarball holds only the extension and its docs
 scripts/capture-references.sh       # re-shoot Claude Code (needs `claude` and tmux)
 PI_MODEL=provider/model scripts/capture-pi.sh   # re-shoot pi with this extension
+PI_MODEL=provider/model scripts/record-demo.sh  # re-record media/demo.mp4 and media/cover.png
 ```
 
 `scripts/cc.sh` drives a tmux pane, and `scripts/snap.sh` turns the pane into `.ansi`, `.txt` and `.png` files (the PNG is rendered with headless Chrome). `scripts/render.sh` re-renders a PNG from an edited `.ansi`, for example after redacting a path.

@@ -26,7 +26,8 @@
     "extensions": [
       "./extensions/btw.ts"
     ],
-    "image": "https://raw.githubusercontent.com/meshkati/pi-claude-btw/main/screenshots/pi/05-main-context.png"
+    "image": "https://raw.githubusercontent.com/Meshkati/pi-claude-btw/main/media/cover.png",
+    "video": "https://github.com/Meshkati/pi-claude-btw/raw/main/media/demo.mp4"
   },
   "files": [
     "extensions",
