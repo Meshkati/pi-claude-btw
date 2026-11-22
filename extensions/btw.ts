@@ -180,7 +180,6 @@ class SideQuestionPanel implements Component {
 	private earlier: Exchange[];
 	private browsing: number | null = null;
 	private scrollTop = 0;
-	private lastMaxScroll = 0;
 	private lastAnswerRows = MIN_ANSWER_ROWS;
 	private frame = 0;
 	private copiedAt = 0;
@@ -246,7 +245,6 @@ class SideQuestionPanel implements Component {
 		const body = this.renderBody(width - ANSWER_INDENT.length);
 		const maxScroll = Math.max(0, body.length - answerRows);
 		this.scrollTop = Math.min(this.scrollTop, maxScroll);
-		this.lastMaxScroll = maxScroll;
 		this.lastAnswerRows = answerRows;
 		const shown = body.slice(this.scrollTop, this.scrollTop + answerRows);
 		shown.forEach((line, row) => {
@@ -322,7 +320,7 @@ class SideQuestionPanel implements Component {
 		} else if (matchesKey(data, Key.home)) {
 			this.scrollTop = 0;
 		} else if (matchesKey(data, Key.end)) {
-			this.scrollTop = this.lastMaxScroll;
+			this.scrollTop = Number.MAX_SAFE_INTEGER;
 		} else {
 			return;
 		}
@@ -353,8 +351,9 @@ class SideQuestionPanel implements Component {
 		this.scrollTop = 0;
 	}
 
+	/** The bottom limit is applied in render, which is the only place that knows the answer's height. */
 	private scrollBy(rows: number) {
-		this.scrollTop = Math.min(Math.max(this.scrollTop + rows, 0), this.lastMaxScroll);
+		this.scrollTop = Math.max(this.scrollTop + rows, 0);
 	}
 
 	private copy(text: string) {
