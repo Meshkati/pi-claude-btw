@@ -11,7 +11,8 @@ The answer opens in a panel that takes the editor's place, under a full-width `â
 ## Install
 
 ```bash
-pi install git:github.com/Meshkati/pi-claude-btw
+pi install npm:@meshkati/pi-claude-btw           # from npm
+pi install git:github.com/meshkati/pi-claude-btw  # or straight from GitHub
 pi -e ./extensions/btw.ts                        # or try it once from a clone, without installing
 ```
 
