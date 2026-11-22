@@ -54,8 +54,7 @@ jobs:
       - run: npm run check
       - run: npm test
       - run: npm run verify:package
+      # npm trusted publishing: npm exchanges this job's GitHub OIDC token for a
+      # short-lived publish token, so no npm secret is stored in the repository.
       - name: Publish with provenance
         run: npm publish --provenance --access public
-        env:
-          # Leave the NPM_TOKEN secret unset once npm trusted publishing is configured.
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

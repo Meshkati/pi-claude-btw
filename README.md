@@ -90,4 +90,4 @@ Releases come from conventional commits: `fix:` bumps the patch version, `feat:`
 2. release-please keeps a release PR open with the next version and its `CHANGELOG.md` entry. pi shows that changelog to users when the package updates.
 3. Merging the release PR tags the version and creates a GitHub release. The `publish` job then tests again and runs `npm publish --provenance` in the `npm` environment.
 
-The publish job authenticates with the `NPM_TOKEN` secret in the `npm` environment. Once npm trusted publishing is configured for this repository (workflow `release.yml`, environment `npm`), delete the secret and the job publishes without a token.
+Publishing uses npm trusted publishing, so there is no npm token in the repository. npm trusts the `release.yml` workflow running in the `npm` environment of this repository, and that environment only deploys from `main`.
