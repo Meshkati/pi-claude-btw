@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/Meshkati/pi-claude-btw/compare/v0.1.0...v0.1.1) (2026-11-22)
+
+
+### Bug Fixes
+
+* match the GitHub owner's case in repository.url so npm provenance verifies ([00db82a](https://github.com/Meshkati/pi-claude-btw/commit/00db82a7362f3d8057b9107105a2e6792ff0b0ad))
+
 ## 0.1.0 (2026-11-22)
 
 
