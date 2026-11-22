@@ -1,6 +1,6 @@
 {
   "name": "@meshkati/pi-claude-btw",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "/btw for pi: ask a side question without interrupting the agent, modeled on Claude Code's /btw",
   "type": "module",
   "license": "MIT",
@@ -19,6 +19,9 @@
   "bugs": {
     "url": "https://github.com/meshkati/pi-claude-btw/issues"
   },
+  "engines": {
+    "node": ">=22.19.0"
+  },
   "pi": {
     "extensions": [
       "./extensions/btw.ts"
@@ -28,13 +31,16 @@
   "files": [
     "extensions",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "CHANGELOG.md"
   ],
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "check": "tsc --noEmit -p ."
+    "check": "tsc --noEmit -p .",
+    "test": "node --test test/*.test.mjs",
+    "verify:package": "node scripts/verify-package.mjs"
   },
   "peerDependencies": {
     "@earendil-works/pi-ai": "*",

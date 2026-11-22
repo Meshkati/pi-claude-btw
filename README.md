@@ -1,5 +1,7 @@
 # pi-claude-btw
 
+[![CI](https://github.com/meshkati/pi-claude-btw/actions/workflows/ci.yml/badge.svg)](https://github.com/meshkati/pi-claude-btw/actions/workflows/ci.yml) [![npm](https://img.shields.io/npm/v/@meshkati/pi-claude-btw)](https://www.npmjs.com/package/@meshkati/pi-claude-btw)
+
 `/btw` for [pi](https://pi.dev): ask a quick side question while the agent keeps working. It is a port of Claude Code's `/btw` that matches its layout, keys, history, and prompt.
 
 ```
@@ -72,8 +74,20 @@ Where pi differs from Claude Code:
 ```bash
 npm install
 npm run check                       # type-check against pi 1.6
+npm test                            # behaviour tests through pi's real extension loader
+npm run verify:package              # the npm tarball holds only the extension and its docs
 scripts/capture-references.sh       # re-shoot Claude Code (needs `claude` and tmux)
 PI_MODEL=provider/model scripts/capture-pi.sh   # re-shoot pi with this extension
 ```
 
 `scripts/cc.sh` drives a tmux pane, and `scripts/snap.sh` turns the pane into `.ansi`, `.txt` and `.png` files (the PNG is rendered with headless Chrome). `scripts/render.sh` re-renders a PNG from an edited `.ansi`, for example after redacting a path.
+
+## Releasing
+
+Releases come from conventional commits: `fix:` bumps the patch version, `feat:` the minor version (while below 1.0), and `feat!:` or `BREAKING CHANGE:` marks a breaking change.
+
+1. On every push to `main`, CI type-checks and tests against the locked pi version and the newest pi release.
+2. release-please keeps a release PR open with the next version and its `CHANGELOG.md` entry. pi shows that changelog to users when the package updates.
+3. Merging the release PR tags the version and creates a GitHub release. The `publish` job then tests again and runs `npm publish --provenance` in the `npm` environment.
+
+The publish job authenticates with the `NPM_TOKEN` secret in the `npm` environment. Once npm trusted publishing is configured for this repository (workflow `release.yml`, environment `npm`), delete the secret and the job publishes without a token.
