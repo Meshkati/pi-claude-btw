@@ -1,0 +1,40 @@
+
+ ▐▛███▛█   Claude Code v2.1.330
+▝▜██████▀  Sonnet 5.5 · Claude Max
+ ▝▝   ▝▝   ~/dev/pi-claude-btw/sandbox
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ❯ /btw                                            Ask a side question without interrupting Claude
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ /btw
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Model: Sonnet 5.5 | Dir: sandbox | Git: main | Ctx: 0/1000000 tokens (0%) | Style: default | CC: v2.1.330 | Cost: $…
+  ⏵⏵ auto mode on (shift+tab to cycle)

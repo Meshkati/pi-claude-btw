@@ -1,0 +1,4 @@
+*.png binary
+*.ansi -diff linguist-generated
+references/raw/*.txt linguist-generated
+screenshots/pi/raw/*.txt linguist-generated

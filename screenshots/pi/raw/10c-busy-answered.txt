@@ -1,0 +1,40 @@
+[Extensions]
+  btw.ts, pi-subagents:bundle
+
+
+ Warning: tmux extended-keys-format is xterm. Pi works best with csi-u. Add `set -g extended-keys-format csi-u` to
+ ~/.tmux.conf and restart tmux.
+
+ Usage: /btw <your question>
+
+
+ For this session: the project codename is FALCON-7 and my favorite color is teal. Acknowledge in one short sentence,
+ no tools.
+
+
+ Thinking...
+
+ Acknowledged: project codename FALCON-7, and your favorite color is teal.
+
+
+ Use the bash tool to run exactly: ping -c 25 127.0.0.1 | tail -1   then report that line.
+
+
+ Thinking...
+
+
+ $ ping -c 25 127.0.0.1 | tail -1
+
+ Elapsed 5.0s
+
+
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+  /btw what is the capital of Australia, and why isn't it Sydney? answer in 2 sentences
+  /btw what's the project codename and my favorite color?
+  /btw while that runs: what does the -p flag do for mkdir? one sentence
+
+    mkdir -p creates any missing parent directories and doesn’t error if the directory already exists.
+
+  ⇧←/→ to browse · c to copy · x to clear history · Esc to close
+~/dev/pi-claude-btw/sandbox-pi (main)
+↑268 ↓171 R4.7k CH89.6% $0.005 (sub) 0.3%/1.0M (auto)                             (kimi-coding) k3.1-pro-highspeed • low

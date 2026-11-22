@@ -1,0 +1,40 @@
+[38;2;126;136;142m  council-mode, huggingface-spaces, pi-subagents[39m
+
+[38;2;205;154;34m[Prompts][39m
+[38;2;126;136;142m  /council, /gather-context-and-clarify, /parallel-cleanup, /parallel-research, /parallel-review, /review-loop[39m
+
+[38;2;205;154;34m[Extensions][39m
+[38;2;126;136;142m  btw.ts, pi-subagents:bundle[39m
+
+
+ [38;2;205;154;34mWarning: tmux extended-keys-format is xterm. Pi works best with csi-u. Add `set -g extended-keys-format csi-u` to
+[39m [38;2;205;154;34m~/.tmux.conf and restart tmux.[39m
+
+ [38;2;126;136;142mUsage: /btw <your question>[39m
+
+[48;2;33;59;73m
+ [38;2;222;224;225mFor this session: the project codename is FALCON-7 and my favorite color is teal. Acknowledge in one short sentence,
+[39m [38;2;222;224;225mno tools.[39m
+
+
+[49m [3m[38;2;150;160;164mThinking...[0m
+
+ Acknowledged: project codename FALCON-7, and your favorite color is teal.
+
+[48;2;33;59;73m
+ [38;2;222;224;225mUse the bash tool to run exactly: ping -c 25 127.0.0.1 | tail -1   then report that line.[39m
+
+
+[49m [3m[38;2;150;160;164mThinking...[0m
+
+[48;2;52;56;58m
+ [1m[38;2;222;224;225m$ ping -c 25 127.0.0.1 | tail -1[0m[48;2;52;56;58m
+
+ [38;2;157;165;169mElapsed 0.0s[39m
+
+
+[38;2;84;137;164m[49m── ⠇[39m [38;2;84;137;164mWorking ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+[7m[39m [0m
+[38;2;84;137;164m────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[38;2;126;136;142m~/dev/pi-claude-btw/sandbox-pi (main)[39m
+[38;2;126;136;142m↑268 ↓171 R4.7k CH89.6% $0.005 (sub) 0.3%/1.0M (auto)                             (kimi-coding) k3.1-pro-highspeed • low

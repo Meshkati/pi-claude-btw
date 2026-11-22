@@ -1,0 +1,40 @@
+
+ [38;2;228;138;122m[48;2;79;142;179m▀[49m▀█[39m  [38;2;126;136;142mv1.6.0[39m
+ [38;2;79;142;179m█▀[39m [38;2;234;182;93m█[39m [38;2;126;136;142mescape[38;2;157;165;169m interrupt · [38;2;126;136;142mctrl+c/ctrl+d[38;2;157;165;169m clear/exit · [38;2;126;136;142m/[38;2;157;165;169m commands · [38;2;126;136;142m![38;2;157;165;169m bash · [38;2;126;136;142mctrl+o[38;2;157;165;169m more[39m
+ [38;2;126;136;142mPress ctrl+o to show full startup help and loaded resources.[39m
+
+ [38;2;126;136;142mPi can explain its own features and look up its docs. Ask it how to use or extend Pi.[39m
+
+[38;2;205;154;34m[Skills][39m
+[38;2;126;136;142m  council-mode, huggingface-spaces, pi-subagents[39m
+
+[38;2;205;154;34m[Prompts][39m
+[38;2;126;136;142m  /council, /gather-context-and-clarify, /parallel-cleanup, /parallel-research, /parallel-review, /review-loop[39m
+
+[38;2;205;154;34m[Extensions][39m
+[38;2;126;136;142m  btw.ts, pi-subagents:bundle[39m
+
+
+ [38;2;205;154;34mWarning: tmux extended-keys-format is xterm. Pi works best with csi-u. Add `set -g extended-keys-format csi-u` to
+[39m [38;2;205;154;34m~/.tmux.conf and restart tmux.[39m
+
+ [38;2;126;136;142mUsage: /btw <your question>[39m
+
+[48;2;33;59;73m
+ [38;2;222;224;225mFor this session: the project codename is FALCON-7 and my favorite color is teal. Acknowledge in one short sentence,
+[39m [38;2;222;224;225mno tools.[39m
+
+
+[49m [3m[38;2;150;160;164mThinking...[0m
+
+ Acknowledged: project codename FALCON-7, and your favorite color is teal.
+
+[38;2;95;168;204m▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+[39m  [38;2;126;136;142m/btw what is the capital of Australia, and why isn't it Sydney? answer in 2 sentences[39m
+  [1m[38;2;95;168;204m/btw [0m[38;2;126;136;142mwhat's the project codename and my favorite color?[39m
+
+    The project codename is [1mFALCON-7[0m, and your favorite color is [1mteal[0m.
+
+  [3m[38;2;126;136;142m⇧←/→ to browse · c to copy · f to fork · x to clear history · Esc to close[0m
+[38;2;126;136;142m~/dev/pi-claude-btw/sandbox-pi (main)[39m
+[38;2;126;136;142m↓96 R2.4k CH100.0% $0.002 (sub) 0.2%/1.0M (auto)                                  (kimi-coding) k3.1-pro-highspeed • low

@@ -1,0 +1,40 @@
+ [38;2;205;154;34mWarning: tmux extended-keys-format is xterm. Pi works best with csi-u. Add `set -g extended-keys-format csi-u` to
+[39m [38;2;205;154;34m~/.tmux.conf and restart tmux.[39m
+
+ [38;2;126;136;142mUsage: /btw <your question>[39m
+
+[48;2;33;59;73m
+ [38;2;222;224;225mFor this session: the project codename is FALCON-7 and my favorite color is teal. Acknowledge in one short sentence,
+[39m [38;2;222;224;225mno tools.[39m
+
+
+[49m [3m[38;2;150;160;164mThinking...[0m
+
+ Acknowledged: project codename FALCON-7, and your favorite color is teal.
+
+[48;2;33;59;73m
+ [38;2;222;224;225mUse the bash tool to run exactly: ping -c 25 127.0.0.1 | tail -1   then report that line.[39m
+
+
+[49m [3m[38;2;150;160;164mThinking...[0m
+
+[48;2;37;65;49m
+ [1m[38;2;222;224;225m$ ping -c 25 127.0.0.1 | tail -1[0m[48;2;37;65;49m
+
+ [38;2;157;165;169mround-trip min/avg/max/stddev = 0.061/0.132/0.223/0.044 ms[39m
+
+ [38;2;157;165;169mTook 24.1s[39m
+
+
+[49m [3m[38;2;150;160;164mThinking...[0m
+
+ round-trip min/avg/max/stddev = 0.061/0.132/0.223/0.044 ms
+
+[38;2;95;168;204m▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+[39m  [1m[38;2;95;168;204m/btw [0m[38;2;126;136;142mwhat is 9 squared? reply with just the number[39m
+
+    81
+
+  [3m[38;2;126;136;142mc to copy · f to fork · Esc to close[0m
+[38;2;126;136;142m~/dev/pi-claude-btw/sandbox-pi (main)[39m
+[38;2;126;136;142m↑408 ↓219 R7.3k CH94.8% $0.007 (sub) 0.3%/1.0M (auto)                             (kimi-coding) k3.1-pro-highspeed • low

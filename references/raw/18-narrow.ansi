@@ -1,0 +1,30 @@
+
+[38;5;231m⏺[39m No, you haven't told me any secret number in this
+  conversation. You've only shared the codename FALCON-7 and
+  your favorite color, teal.
+
+[38;5;246m✻[39m [38;5;246mSautéed for 1s · done 6:58 PM[39m
+
+[38;5;246m[48;5;237m❯ [38;5;231mUse the Bash tool in the foreground to run exactly: ping -c [39m
+  [38;5;231m25 127.0.0.1 | tail -1   then report that line.[39m
+[49m
+  [38;5;246mRan [1m1[0m[38;5;246m shell command [39m
+
+[38;5;231m⏺[39m The last line of the ping output is:
+
+  [38;5;153mround-trip min/avg/max/stddev = 0.052/0.126/0.244/0.057 ms[39m
+
+[38;5;246m✻[39m [38;5;246mWorked for 27s · done 6:59 PM[39m
+[38;5;153m▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+[39m  [38;5;246m/btw what is 9 squared? reply with just the number[39m
+  [38;5;246m/btw give me a tiny markdown sample: a level-2 heading, a…[39m
+  [1m[38;5;153m/btw [0m[38;5;246min two sentences, what is a monorepo?[39m
+
+    A monorepo is a single version-controlled repository that
+    holds the code for many projects, services, or libraries,
+    often with shared tooling and dependencies. It makes code
+    sharing and large cross-project changes easier, but it
+    needs good build tooling to stay fast as it grows.
+
+  [3m[38;5;246m⇧←/→ to browse · c to copy · f to fork · x to clear history [0m
+  [3m[38;5;246m· Esc to close[0m

@@ -1,0 +1,40 @@
+[48;2;37;65;49m [38;2;157;165;169mTook 24.1s[39m
+
+
+[49m [3m[38;2;150;160;164mThinking...[0m
+
+ round-trip min/avg/max/stddev = 0.061/0.132/0.223/0.044 ms
+
+[38;2;95;168;204m▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+[39m  [38;2;126;136;142m/btw what is the capital of Australia, and why isn't it Sydney? answer in 2 sentences[39m
+  [38;2;126;136;142m/btw what's the project codename and my favorite color?[39m
+  [38;2;126;136;142m/btw while that runs: what does the -p flag do for mkdir? one sentence[39m
+  [38;2;126;136;142m/btw run ls in the current directory and tell me which files exist[39m
+  [1m[38;2;95;168;204m/btw [0m[38;2;126;136;142mlist 45 fruits, one per line, numbered, no extra text
+
+[39m    [38;2;167;152;215m1. [39mApple
+    [38;2;167;152;215m2. [39mBanana
+    [38;2;167;152;215m3. [39mOrange
+    [38;2;167;152;215m4. [39mMango
+    [38;2;167;152;215m5. [39mPineapple
+    [38;2;167;152;215m6. [39mStrawberry
+    [38;2;167;152;215m7. [39mBlueberry
+    [38;2;167;152;215m8. [39mRaspberry
+    [38;2;167;152;215m9. [39mBlackberry
+    [38;2;167;152;215m10. [39mCranberry
+    [38;2;167;152;215m11. [39mGrape
+    [38;2;167;152;215m12. [39mWatermelon
+    [38;2;167;152;215m13. [39mCantaloupe
+    [38;2;167;152;215m14. [39mHoneydew melon
+    [38;2;167;152;215m15. [39mPeach
+    [38;2;167;152;215m16. [39mNectarine
+    [38;2;167;152;215m17. [39mPlum
+    [38;2;167;152;215m18. [39mApricot
+    [38;2;167;152;215m19. [39mCherry
+    [38;2;167;152;215m20. [39mPear
+    [38;2;167;152;215m21. [39mKiwi
+    [38;2;167;152;215m22. [39mPapaya                                                                                                         [38;2;126;136;142m↓
+
+[39m  [3m[38;2;126;136;142m↑/↓ to scroll · ⇧←/→ to browse · c to copy · f to fork · x to clear history · Esc to close[0m
+[38;2;126;136;142m~/dev/pi-claude-btw/sandbox-pi (main)[39m
+[38;2;126;136;142m↑408 ↓219 R7.3k CH94.8% $0.007 (sub) 0.3%/1.0M (auto)                             (kimi-coding) k3.1-pro-highspeed • low

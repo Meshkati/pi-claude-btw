@@ -1,0 +1,40 @@
+
+ ▀▀█  v1.6.0
+ █▀ █ escape interrupt · ctrl+c/ctrl+d clear/exit · / commands · ! bash · ctrl+o more
+ Press ctrl+o to show full startup help and loaded resources.
+
+ Pi can explain its own features and look up its docs. Ask it how to use or extend Pi.
+
+[Skills]
+  council-mode, huggingface-spaces, pi-subagents
+
+[Prompts]
+  /council, /gather-context-and-clarify, /parallel-cleanup, /parallel-research, /parallel-review, /review-loop
+
+[Extensions]
+  btw.ts, pi-subagents:bundle
+
+
+ Warning: tmux extended-keys-format is xterm. Pi works best with csi-u. Add `set -g extended-keys-format csi-u` to
+ ~/.tmux.conf and restart tmux.
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+/bt
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+→ btw                             [t] Ask a side question without interrupting the agent
+  subagents-watchdog              [u:npm:pi-subagents] Show or toggle the default-off subagent watchdog
+  subagents                       [u:npm:pi-subagents] Administer subagents: inspect metadata and update models, think
+  subagent-cost                   [u:npm:pi-subagents] Show parent and subagent child usage cost for this session
+  subagents-doctor                [u:npm:pi-subagents] Show subagent diagnostics
+  (1/19)
+~/dev/pi-claude-btw/sandbox-pi (main)
+$0.000 (sub) 0.0%/1.0M (auto)                                                     (kimi-coding) k3.1-pro-highspeed • low

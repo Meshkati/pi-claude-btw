@@ -1,0 +1,40 @@
+  btw.ts, pi-subagents:bundle
+
+
+ Warning: tmux extended-keys-format is xterm. Pi works best with csi-u. Add `set -g extended-keys-format csi-u` to
+ ~/.tmux.conf and restart tmux.
+
+ Usage: /btw <your question>
+
+
+ For this session: the project codename is FALCON-7 and my favorite color is teal. Acknowledge in one short sentence,
+ no tools.
+
+
+ Thinking...
+
+ Acknowledged: project codename FALCON-7, and your favorite color is teal.
+
+
+ Use the bash tool to run exactly: ping -c 25 127.0.0.1 | tail -1   then report that line.
+
+
+ Thinking...
+
+
+ $ ping -c 25 127.0.0.1 | tail -1
+
+ round-trip min/avg/max/stddev = 0.061/0.132/0.223/0.044 ms
+
+ Took 24.1s
+
+
+ Thinking...
+
+ round-trip min/avg/max/stddev = 0.061/0.132/0.223/0.044 ms
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+~/dev/pi-claude-btw/sandbox-pi (main)
+↑408 ↓219 R7.3k CH94.8% $0.007 (sub) 0.3%/1.0M (auto)                             (kimi-coding) k3.1-pro-highspeed • low
