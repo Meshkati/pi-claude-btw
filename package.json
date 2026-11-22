@@ -1,6 +1,6 @@
 {
   "name": "@meshkati/pi-claude-btw",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "/btw for pi: ask a side question without interrupting the agent, modeled on Claude Code's /btw",
   "type": "module",
   "license": "MIT",
